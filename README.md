@@ -12,7 +12,7 @@
 
 ## Configurar workspace: https://golang.org/doc/code.html
 
-	### Criar estrutura de pastas:
+### Criar estrutura de pastas:
 
 	vschissato@vschissato:~$ tree workspace-golang/
 	workspace-golang/
@@ -20,12 +20,12 @@
 	├── pkg
 	└── src
 
-	### Criar variáveis de ambiente
+### Criar variáveis de ambiente
 
 	export GOPATH=$HOME/workspace-golang
 	export PATH=$PATH:$GOPATH/bin (conveniência)
 	
-	### Baixar projeto:
+### Baixar projeto:
 	
 	go get github.com/nessauepa/simulation
 	
