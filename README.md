@@ -12,17 +12,30 @@
 
 ### Configurar workspace: https://golang.org/doc/code.html
 
+	Criar estrutura de pastas:
+
 	vschissato@vschissato:~$ tree workspace-golang/
 	workspace-golang/
 	├── bin
 	├── pkg
 	└── src
-   	 └── github.com
-        	└── nessauepa
-        	    └── simulation
 
 	export GOPATH=$HOME/workspace-golang
 	export PATH=$PATH:$GOPATH/bin (conveniência)
+	
+	Baixar projeto:
+	
+	go get github.com/nessauepa/simulation
+	
+	Resultado:
+	vschissato@vschissato:~$ tree workspace-golang/
+	workspace-golang/
+	├── bin
+	├── pkg
+	└── src
+	  └── github.com
+        	└── nessauepa
+        	    └── simulation
 
 ### Build e install com GO Tools: https://golang.org/cmd/go/
 
