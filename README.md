@@ -1,5 +1,7 @@
 # simulation
 
+# Parte 1 (Configurando ambiente e executando)
+
 ## Leitura
 
 * Tutorial (tour) da linguagem GO: https://tour.golang.org/welcome/1
@@ -55,12 +57,31 @@
 	go install github.com/nessauepa/simulation
 	simulation
 
-## Convenções de testes unitários: https://golang.org/doc/code.html#Testing
+# Parte 2 (escrevendo código)
+
+## Testes unitários
+
+### Convenções de testes unitários: https://golang.org/doc/code.html#Testing
 
 	go test github.com/nessauepa/simulation
 
-### Cobertura de testes 
+#### Cobertura de testes 
 	Calcula cobertura dos testes e exibe no browser (UI)
 
 	go test github.com/nessauepa/simulation -coverprofile=coverage.out
 	go tool cover -html=coverage.out 
+
+## Documentação: https://golang.org/doc/effective_go.html#commentary
+
+	$ godoc github.com/nessauepa/simulation/sellerapi
+	PACKAGE DOCUMENTATION
+	
+	package sellerapi
+	    import "github.com/nessauepa/simulation/sellerapi"
+	
+	    Package sellerapi implements a client to the Seller API.
+	
+	FUNCTIONS
+	
+	func Simulate() string
+	    Simulate make a order simulation
