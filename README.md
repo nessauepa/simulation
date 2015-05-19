@@ -16,9 +16,9 @@
 
 	vschissato@vschissato:~$ tree workspace-golang/
 	workspace-golang/
-	├── bin
-	├── pkg
-	└── src
+	├── bin       <- executáveis (entregáveis)
+	├── pkg       <- pacotes de bibliotecas
+	└── src       <- código fonte
 
 ### Criar variáveis de ambiente
 
@@ -33,22 +33,22 @@
 	vschissato@vschissato:~$ tree workspace-golang/
 	workspace-golang/
 	├── bin
-	│   └── simulation
+	│   └── simulation                           <- executável (entregável), hard link com a biblioteca sellerapi.a (portanto, entregável é auto funcional, único arquivo que precisa ser deployado)
 	├── pkg
 	│   └── linux_amd64
 	│       └── github.com
 	│           └── nessauepa
 	│               └── simulation
-	│                   └── sellerapi.a
+	│                   └── sellerapi.a          <- biblioteca seller api client
 	└── src
 	    └── github.com
 	        └── nessauepa
-	            └── simulation
+	            └── simulation                    
 	                ├── README.md
 	                ├── sellerapi
-	                │   ├── sellerapi.go
-	                │   └── sellerapi_test.go
-	                └── simulation.go
+	                │   ├── sellerapi.go        <- Fonte da biblioteca seller api client
+	                │   └── sellerapi_test.go   <- Teste unitário
+	                └── simulation.go           <- Arquivo principal (importa a biblioteca sellerapi)
 
 ## Build e install com GO Tools: https://golang.org/cmd/go/
 
