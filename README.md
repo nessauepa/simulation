@@ -7,14 +7,14 @@
 * Tutorial (tour) da linguagem GO: https://tour.golang.org/welcome/1
 * Boas práticas: https://golang.org/doc/effective_go.html (pelo menos o comecinho e importante)
 
-## Instalar GO: https://golang.org/doc/install
+## Instalação GO: https://golang.org/doc/install
 
 	tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz
 	export PATH=$PATH:/usr/local/go/bin
 
-## Configurar workspace: https://golang.org/doc/code.html
+## Configuração workspace: https://golang.org/doc/code.html
 
-### Criar estrutura de pastas:
+### Criação da estrutura de pastas:
 
 	vschissato@vschissato:~$ tree workspace-golang/
 	workspace-golang/
@@ -22,12 +22,12 @@
 	├── pkg       <- pacotes de bibliotecas
 	└── src       <- código fonte
 
-### Criar variáveis de ambiente
+### Criação das variáveis de ambiente
 
 	export GOPATH=$HOME/workspace-golang
 	export PATH=$PATH:$GOPATH/bin (conveniência)
 	
-### Baixar projeto:
+### Download do projeto:
 	
 	go get github.com/nessauepa/simulation
 	
