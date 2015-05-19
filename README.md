@@ -52,9 +52,15 @@
 
 ## Build e install com GO Tools: https://golang.org/cmd/go/
 
-	$ go install github.com/nessauepa/simulation
-	$ simulation
+	go install github.com/nessauepa/simulation
+	simulation
 
 ## Convenções de testes unitários: https://golang.org/doc/code.html#Testing
 
-	$ go test github.com/nessauepa/simulation
+	go test github.com/nessauepa/simulation
+
+### Cobertura de testes 
+	Calcula cobertura dos testes e exibe no browser (UI)
+
+	go test github.com/nessauepa/simulation -coverprofile=coverage.out
+	go tool cover -html=coverage.out 
