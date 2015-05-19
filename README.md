@@ -33,7 +33,7 @@
 	vschissato@vschissato:~$ tree workspace-golang/
 	workspace-golang/
 	├── bin
-	│   └── simulation                           <- executável (entregável), hard link com a biblioteca sellerapi.a (portanto, entregável é auto funcional, único arquivo que precisa ser deployado)
+	│   └── simulation                           <- executável (entregável), linkagem estática com a biblioteca sellerapi.a (portanto, entregável é auto funcional, único arquivo que precisa ser deployado)
 	├── pkg
 	│   └── linux_amd64
 	│       └── github.com
