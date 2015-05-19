@@ -7,6 +7,6 @@ import (
 
 func main() {
 
-	fmt.Println(sellerapi.Simulate());
+	fmt.Println(sellerapi.Simulate())
 
 }
