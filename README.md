@@ -27,15 +27,26 @@
 	
 	go get github.com/nessauepa/simulation
 	
-	Resultado:
+	Resultado (código baixado, compilado e instalado):
 	vschissato@vschissato:~$ tree workspace-golang/
 	workspace-golang/
 	├── bin
+	│   └── simulation
 	├── pkg
+	│   └── linux_amd64
+	│       └── github.com
+	│           └── nessauepa
+	│               └── simulation
+	│                   └── sellerapi.a
 	└── src
-	  └── github.com
-        	└── nessauepa
-        	    └── simulation
+	    └── github.com
+	        └── nessauepa
+	            └── simulation
+	                ├── README.md
+	                ├── sellerapi
+	                │   ├── sellerapi.go
+	                │   └── sellerapi_test.go
+	                └── simulation.go
 
 ### Build e install com GO Tools: https://golang.org/cmd/go/
 
