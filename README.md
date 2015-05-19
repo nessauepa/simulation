@@ -63,6 +63,8 @@
 ## Formatação de código:
 
 	go fmt github.com/nessauepa/simulation
+	
+## Organização de código: https://blog.golang.org/organizing-go-code
 
 ## Testes unitários
 
