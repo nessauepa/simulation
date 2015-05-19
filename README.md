@@ -59,6 +59,11 @@
 
 # Parte 2 (escrevendo código)
 
+
+## Formatação de código:
+
+	go fmt github.com/nessauepa/simulation
+
 ## Testes unitários
 
 ### Convenções de testes unitários: https://golang.org/doc/code.html#Testing
