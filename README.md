@@ -48,9 +48,9 @@
 	            └── simulation                    
 	                ├── README.md
 	                ├── sellerapi
-	                │   ├── sellerapi.go        <- Fonte da biblioteca seller api client
-	                │   └── sellerapi_test.go   <- Teste unitário
-	                └── simulation.go           <- Arquivo principal (importa a biblioteca sellerapi)
+	                │   ├── simulation.go        <- Fonte da biblioteca seller api client com codigos ref. a simulation
+	                │   └── simulation_test.go   <- Teste unitário do arquivo respectivo
+	                └── simulation.go            <- Arquivo principal (importa a biblioteca sellerapi)
 
 ## Build e install com GO Tools: https://golang.org/cmd/go/
 
