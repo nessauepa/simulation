@@ -2,8 +2,8 @@
 
 ### Leitura
 
-  Tutorial (tour) da linguagem GO: https://tour.golang.org/welcome/1
-	Boas práticas: https://golang.org/doc/effective_go.html (pelo menos o comecinho e importante)
+* Tutorial (tour) da linguagem GO: https://tour.golang.org/welcome/1
+* Boas práticas: https://golang.org/doc/effective_go.html (pelo menos o comecinho e importante)
 
 ### Instalar GO: https://golang.org/doc/install
 
