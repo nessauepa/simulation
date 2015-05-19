@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"git.walmart.com/simulation/sellerapi"
+	"github.com/nessauepa/simulation/sellerapi"
 )
 
 func main() {
