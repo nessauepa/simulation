@@ -29,7 +29,7 @@
 	
 ### Download do projeto:
 	
-	go get github.com/nessauepa/simulation
+	go get github.com/vanessaschissato/simulation
 	
 	Resultado (código baixado, compilado e instalado):
 	vschissato@vschissato:~$ tree workspace-golang/
@@ -54,7 +54,7 @@
 
 ## Build e install com GO Tools: https://golang.org/cmd/go/
 
-	go install github.com/nessauepa/simulation
+	go install github.com/vanessaschissato/simulation
 	simulation
 
 # Parte 2 (escrevendo código)
@@ -62,7 +62,7 @@
 
 ## Formatação de código:
 
-	go fmt github.com/nessauepa/simulation
+	go fmt github.com/vanessaschissato/simulation
 	
 ## Organização de código: https://blog.golang.org/organizing-go-code
 
@@ -70,21 +70,21 @@
 
 ### Convenções de testes unitários: https://golang.org/doc/code.html#Testing
 
-	go test github.com/nessauepa/simulation
+	go test github.com/vanessaschissato/simulation
 
 #### Cobertura de testes 
 	Calcula cobertura dos testes e exibe no browser (UI)
 
-	go test github.com/nessauepa/simulation -coverprofile=coverage.out
+	go test github.com/vanessaschissato/simulation -coverprofile=coverage.out
 	go tool cover -html=coverage.out 
 
 ## Documentação: https://golang.org/doc/effective_go.html#commentary
 
-	$ godoc github.com/nessauepa/simulation/sellerapi
+	$ godoc github.com/vanessaschissato/simulation/sellerapi
 	PACKAGE DOCUMENTATION
 	
 	package sellerapi
-	    import "github.com/nessauepa/simulation/sellerapi"
+	    import "github.com/vanessaschissato/simulation/sellerapi"
 	
 	    Package sellerapi implements a client to the Seller API.
 	
